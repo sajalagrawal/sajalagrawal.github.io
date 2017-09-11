@@ -1,0 +1,83 @@
+.navbar-inverse {
+    background-color:rgb(79, 79, 79);    
+}
+.navbar{
+    font-size:16px;
+    padding:6px;
+    font-family: Verdana;
+}
+.navbar-inverse .navbar-brand{
+    color:rgb(200,200,200);
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: white;
+}
+
+body{
+    
+     max-width: 650px; margin: 0 auto; 
+}
+
+.btn:link{
+    padding:5px;
+    color:grey;
+    border:1px solid grey;
+}
+.btn:visited{
+    padding:5px;
+    color:grey;
+    border:1px solid grey;
+}
+.btn:hover{
+    padding:5px;
+    color:grey;
+    border:1px solid black;
+}
+.btn:active{
+    padding:5px;
+    color:grey;
+    border:1px solid grey;
+}
+
+.btn-default:link{
+    background-color:rgb(255,255,255)
+}
+.btn-default:visited{
+    background-color:rgb(255,255,255)
+}
+.btn-default:hover{
+    background-color:rgb(255,255,255)
+}
+.btn-default:active{
+    background-color:rgb(255,255,255)
+}
+.btn-default:focus{
+    background-color:rgb(255,255,255)   
+}
+
+hr {
+    height: 1px;
+    border-top: 3px solid #ccc;
+    margin: 1em 0;
+    
+}
+
+html { 
+    min-height:100%;
+    position:relative;    
+} 
+
+.footer { 
+    position: absolute; 
+    bottom:0; 
+    right:0;
+    left:0;
+}
+
+a{
+    color:grey;
+}
+a:hover{
+    color:black;
+}
