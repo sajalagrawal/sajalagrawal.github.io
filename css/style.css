@@ -14,9 +14,70 @@
     color: white;
 }
 
+@media(min-width:320px){
+	#myImage{
+		height:320px;
+		width:320px;
+	}
+	#myPie{
+		height:148px;
+		width:200px;
+	}
+}
+@media(min-width:481px){
+	#myImage{
+		height:266px;
+		width:360px;
+	}
+	#myPie{
+		height:266px;
+		width:360px;
+	}
+}
+@media(min-width:641px){
+	#myImage{
+		height:650px;
+		width:650px;
+	}
+	#myPie{
+		height:389px;
+		width:525px;
+	}
+}
+@media(min-width:961px){
+	#myImage{
+		height:650px;
+		width:650px;
+	}
+	#myPie{
+		height:389px;
+		width:525px;
+	}
+}
+@media(min-width:1000px){
+	#myImage{
+		height:650px;
+		width:650px;
+	}
+	#myPie{
+		height:389px;
+		width:525px;
+	}
+	.capt{
+		font-size:20px;
+	}
+}
+#academics{
+	max-width:1000px;
+}
 body{
-    
-     max-width: 650px; margin: 0 auto; 
+     max-width: 650px; 
+	 margin: 0 auto; 	
+	 padding-left:10px;
+	 padding-right:10px;
+	 
+	#margin-left:51%;
+	#margin-right:49%;
 }
 
 .btn:link{
@@ -80,4 +141,8 @@ a{
 }
 a:hover{
     color:black;
+}
+
+#contactMe{
+	margin-bottom:50px;
 }
