@@ -36,7 +36,7 @@
 }
 @media(min-width:641px){
 	#myImage{
-		height:650px;
+		height:550px;
 		width:650px;
 	}
 	#myPie{
@@ -46,7 +46,7 @@
 }
 @media(min-width:961px){
 	#myImage{
-		height:650px;
+		height:550px;
 		width:650px;
 	}
 	#myPie{
@@ -56,7 +56,7 @@
 }
 @media(min-width:1000px){
 	#myImage{
-		height:650px;
+		height:550px;
 		width:650px;
 	}
 	#myPie{
@@ -146,3 +146,4 @@ a:hover{
 #contactMe{
 	margin-bottom:50px;
 }
+
