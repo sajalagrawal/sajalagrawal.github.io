@@ -147,3 +147,7 @@ a:hover{
 	margin-bottom:50px;
 }
 
+.circleImage{
+	border:2px solid black;
+	 border-radius:100%;
+}
