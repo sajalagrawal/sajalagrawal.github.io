@@ -162,3 +162,19 @@ a:hover{
     margin-right: 5px;
 	border-radius:5px;
 }
+
+.greyImage{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	padding-right:10px;
+	-webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.colorOnHover{
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+	padding-right:10px;
+	-webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
