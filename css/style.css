@@ -149,5 +149,15 @@ a:hover{
 
 .circleImage{
 	border:2px solid black;
-	 border-radius:100%;
+	border-radius:100%;
+}
+#squares div {
+    /* these styles will let the divs line up next to each other
+       while accepting dimensions */
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: black;
+    /* a small margin to separate the blocks */
+    margin-right: 5px;
 }
