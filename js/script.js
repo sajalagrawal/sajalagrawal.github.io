@@ -6,3 +6,11 @@ function enlarge(element){
 function reduceBack(element){
 	element.style.transform="scale(1.0, 1.0)";
 }
+
+function colorThisImage(image){
+	image.className="colorOnHover";
+}
+
+function greyscaleThisImage(image){
+	image.className="greyImage";
+}
